@@ -12,6 +12,7 @@ body{
     margin: auto;
     height: 4200px;
     overflow: hidden;
+    background-color: #fff;
   
    
 }
@@ -445,7 +446,7 @@ form{
   .main-container{
     max-width: 600px;
     margin: auto;
-    height: 8000px;
+    height: 6580px;
     overflow: hidden;
   
    
@@ -586,7 +587,7 @@ form{
 
 .about-us .about-discription{
     max-width: 670px;
-    max-height:420px;
+    max-height:400px;
     height: 100%;
     width: 100%;
     background-color: #fff;
@@ -596,7 +597,7 @@ form{
 
 .about-us .about-logo{
   max-width: 670px;
-  max-height:300px;
+  max-height:180px;
   height: 100%;
   width: 100%;
   background-color: #fff;
