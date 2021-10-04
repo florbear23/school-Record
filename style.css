@@ -10,7 +10,7 @@ body{
 .main-container{
     max-width: 1366px;
     margin: auto;
-    height: 4200px;
+    height: 3680px;
     overflow: hidden;
     background-color: #fff;
   
@@ -257,7 +257,7 @@ margin: 10px auto;
 
 .service{
     max-width: 1380px;
-    max-height: 1200px;
+    max-height: 1000px;
     margin:  auto;
     height: 100%;
     background-color: #fff;
@@ -388,6 +388,21 @@ form{
 
   font-size: 18px; color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -799,7 +814,44 @@ form{
 
 
 
+@media only screen and (max-width: 768px){
 
+.portfolio{
+  max-width:100%;
+  max-height: 500px;
+}
+
+.portfolio-box1,.portfolio-box2,.portfolio-box3{
+  max-width: 220px;
+  max-height: 200px;
+  }
+.tab button {
+  font-size: 15px;
+}
+
+.service{
+  max-width: 1380px;
+  max-height: 750px;
+}
+
+.service-box{
+  max-width: 230px;
+  max-height: 200px;
+}
+
+.contact{
+  max-width: 1380px;
+  max-height:1050px;
+}
+.contact-box{
+max-width: 360px;
+width: 100%;
+max-height: 800px;
+}
+.div-btn{
+  margin-top: 40px;
+}
+}
 
 
 
@@ -843,7 +895,7 @@ form{
   .main-container{
     max-width: 600px;
     margin: auto;
-    height: 6580px;
+    height: 6420px;
     overflow: hidden;
   
    
