@@ -611,7 +611,88 @@
   
   
   
-  
+@media only screen and (max-width: 767px){
+  .main-container{
+    max-width: 601px;
+    margin: auto;
+    height: 4500px;
+  }
+
+  .text {
+    font-size: 28px;
+    text-align: center;
+  }
+  .slide-text{
+    font-size: 20px;
+  }
+
+   .about-us .about-discription{
+      max-width: 280px;
+      max-height:300px;
+       
+    }
+    .about-us .about-logo{
+      max-width: 280px;
+      max-height:300px;
+      
+    }
+    .title-us{
+      font-size: 20px;
+  }
+  .title-dis{
+      font-size: 10px;
+  }
+
+  .portfolio{
+    max-width: 1380px;
+    max-height: 660px;
+    }
+  .title-por{
+    margin: 30px auto ;
+        
+    }
+  .portfolio-box1,.portfolio-box2,.portfolio-box3{
+    max-width: 170px;
+    max-height: 200px;
+    }
+    .tab-container{
+      max-height: 500px;
+    }  
+    .tab button {
+      font-size: 18px;
+    }
+
+    .service{
+      max-width: 1380px;
+      max-height: 800px;
+      margin:  0;
+      height: 100%;
+    }
+    .service-box{
+      max-width: 150px;
+      max-height: 180px;
+    }
+
+    .icon-s{
+      width:100%;
+      height:120px
+    }
+    .service-dis{
+      font-size: 13px; 
+  }
+
+  .contact{
+    max-width: 1380px;
+    max-height: 1000px;
+  }
+  .contact-box{
+    max-width: 250px;
+    width: 100%;
+    max-height: 800px;
+    margin: 0 auto;
+    }
+
+}
   
   
   
@@ -713,31 +794,25 @@
   }
   @media only screen and (max-width: 300px){
 
-
     .main-container{
       max-width: 280px;
       height: 6300px;
-  }
+    }
     .service-dis{
       font-size: 18px; 
-  }
+    }
     .contact{
       max-width: 1380px;
       max-height: 1450px;
-     
-  }
-
+    }
     .address{
       max-width: 80px;
       max-height: 50px;
-      
     }
     .map{
-     
       height:200px;
       margin: 5px auto 0 auto ;
     }
-
     .address-info-1{
       font-size: 15px; color: #fff; margin: 5px 0;
       position: relative;
@@ -747,7 +822,6 @@
       font-size: 10px; color: #fff;
       position: relative;
       bottom: 100px;
-     
     }
     .div-btn{
       max-width:300px;
@@ -755,5 +829,4 @@
       position: relative;
       bottom: 190px;
     }
-
   }
