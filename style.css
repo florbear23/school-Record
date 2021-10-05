@@ -616,396 +616,144 @@
   
   
   @media only screen and (max-width: 600px) {
-  
-  
+
     .main-container{
-      max-width: 600px;
+      max-width: 500px;
       margin: auto;
-      height: 6420px;
+      height: 6550px;
       overflow: hidden;
-    
-     
   }
-  .slider{
-      max-width: 600px;
-      max-height: 618px;
-      margin: 10px auto;
-      height: 618px;
-      padding: 0 10px;
-     
-      
-     
-  }
-  .img-slide{
-      width:100%;
-      height:  615px;
-      filter: brightness(72%);
-      -webkit-filter: brightness(72%);
-      -moz-filter: brightness(72%);
-  }
-  /* Slideshow container */
-  .slideshow-container {
-      max-width:100%;
-      position: relative;
-      max-height: 618px;
-      height: 618px;
-    }
-    
-    /* Hide the images by default */
-    .mySlides {
-      display: none;
-    }
-    /* Next & previous buttons */
     .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      transition: 0.6s ease;
-      border-radius:50%;
-      user-select: none;
-    }
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius:50%;
-    }
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: #3BA3EF;
-    }
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
       font-size: 24px;
-      position: absolute;
-      bottom:60px;
-      width: 100%;
-      text-align: center;
-      margin: 0 auto;
-     
     }
-  
+    .text {
+      font-size: 28px;
+      text-align: center;
+    }
     .slide-text{
-      font-size: 18px;
+      font-size: 20px;
     }
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-    .btn-slide{
-      position: relative;
-      height: 52px;
-      width: 150px;
-      background-color: #3BA3EF;
-      color: #fff;
-      border-radius: 15px;
-      border: none;
-    }
-    .dot-con{
-      position: relative;
-      bottom: 60px;
-    }
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 10px;
-      width: 10px;
-      margin: 0 2px;
-      background-color: #3BA3EF;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-     
-    }
-    .active, .dot:hover {
-      background-color: #fff;
-    }
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-    @-webkit-keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-    @keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
-    }
-  
-  
     .about-us{
-      max-width: 1380px;
-      max-height: 620px;
-      height: 100%;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      padding: 0 10px;
-     
-  
-  }
-  
-  .about-us .about-discription{
-      max-width: 670px;
-      max-height:450px;
-      height: 100%;
-      width: 100%;
-      background-color: #fff;
-      margin:  auto;
-      order: 1;
-  }
-  
-  .about-us .about-logo{
-    max-width: 670px;
-    max-height:200px;
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
-    margin:  auto;
-    order: 2;
-  }
-  
-  .title-us{
-      text-align: center;
-      font-size: 32px;
-      margin:10px;
-  }
-  .title-dis{
-      text-align: center;
-      font-size: 12px;
-      margin:20px;
-  }
-  
+      max-height: 900px;
+    }
+    .about-us .about-discription{
+        max-width: 100%;
+        max-height:300px;
+        order: 1;
+    }
+    .about-us .about-logo{
+      max-width: 100%;
+      max-height:300px;
+      order: 2;
+    }
+    
+    .title-us{
+        font-size: 20px;
+    }
+    .title-dis{
+        font-size: 12px;
+    }
+
   .portfolio{
       max-width: 1380px;
-      max-height: 1150px;
-      margin:  0 10px;
-      height: 100%;
-      background-color: #fff;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;  
-      padding: 0 10px;
-  }
-  
+      max-height: 1300px;
+      }
   .title-por{
-    text-align: center;
-    font-size: 32px;
-    display:block;
-    margin: 40px 0 ;
-    background-color: #3BA3EF;
+      margin: 30px auto ;
+          
+      }
+  .portfolio-box1,.portfolio-box2,.portfolio-box3{
+      max-width: 400px;
+      max-height: 200px;
+      }
+
+  .tab-container{
+    max-height: 800px;
+    margin: 10px auto;
+    height: 100%;
+    padding: 0;
+
+  }
+  .tab {
+    width: 100%;
+    margin: 10px 0;
     border-radius: 15px;
   }
-  .portfolio-box1,.portfolio-box2,.portfolio-box3{
-  max-width: 430px;
-  max-height: 200px;
-  width: 100%;
-  height: 100%;
-  margin: 5px auto;
+  .tab button {
+    font-size: 20px;
   }
-  
-  
-  .tab-container{
-      width: 100%;
-      max-height: 684px;
-      height: 100%;
-      padding: 5px 0;
-  
+  .tabcontent {
+    font-size: 14px;
+    max-height: 250px;
+    height: 100%;
   }
-  /* Style the tab */
-  .tab {
-      overflow: hidden;
-      border: 1px solid #ccc;
-      background-color: #3BA3EF;
-      
-      
-    }
-    
-    /* Style the buttons inside the tab */
-    .tab button {
-      background-color: inherit;
-      float: left;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 14px auto;
-      transition: 0.3s;
-      font-size: 20px;
-      color: #fff;
-    }
-    
-    /* Change background color of buttons on hover */
-    .tab button:hover {
-      background-color: #ddd;
-      
-    }
-    
-    /* Create an active/current tablink class */
-    .tab button.active {
-      background-color: #ccc;
-    }
-    
-    /* Style the tab content */
-    .tabcontent {
-      display: none;
-      padding: 6px 12px;
-      border: 1px solid #ccc;
-      border-top: none;
-      font-size: 14px;
-      max-height: 200px;
-      height: 100%;
-    }
-  
-  
-  
   .service{
-      max-width: 1380px;
-      max-height: 2100px;
-      margin:  0 10px;
-      height: 100%;
-      background-color: #fff;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      padding: 0 10px;
-      
+    max-width: 1380px;
+    max-height: 2000px;
+    margin:  0;
+    height: 100%;
   }
-  
   .service-box{
-      max-width: 350px;
-      max-height: 200px;
-      width: 100%;
-      height: 100%;
-      background-color: #3BA3EF;
-      margin: 5px auto;
-  
+    max-width: 100%;
+    max-height: 180px;
   }
   .icon-s{
     width:100%;
-    height:150px;
+    height:150px
   }
-  
-  
   .service-dis{
-      font-size: 15px;
-      text-align: center;
-      color: #fff;
+      font-size: 20px; 
   }
-  
-  
-  
+
   .contact{
+    max-width: 1380px;
+    max-height: 1680px;
+   
+}
+  }
+  @media only screen and (max-width: 300px){
+
+
+    .main-container{
+      max-width: 280px;
+      height: 6300px;
+  }
+    .service-dis{
+      font-size: 18px; 
+  }
+    .contact{
       max-width: 1380px;
-      max-height: 1900px;
-      margin:  0 10px;
-      height: 100%;
-      background-color:  #3BA3EF;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center; 
-      padding: 10px;
+      max-height: 1450px;
      
   }
-  
-  .contact-box{
-    max-width: 650px;
-    width: 100%;
-    max-height: 800px;
-    height: 100%;
-    margin: auto;
-    height: 100%;
-   
-    display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-  }
-  form{
-    display: flex;
-    flex-wrap: wrap;
-    padding:0 ;
-  }
-  .form-text{
-    max-height: 150px;
-    height: 100%;
-    max-width: 100%;
-    width: 100%;
-    margin: 10px 10px;
-  }
-  .text-area{
-    max-height: 300px;
-    height: 100%;
-    max-width:630px;
-    width: 100%;
-    margin: auto;
-    padding: 12px;
-  }
-  
-  .contact-box input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    height: 100%;
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  .address{
-    max-width: 250px;
-    max-height: 100px;
-    width:  100%;
-    height: 100%;
-   
-    margin: 0 10px ;
-  }
-  
-  .div-btn{
-    max-width:300px;
-    max-height: 100px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-  }
-  .btn-contact{
-    position: relative;
-    height: 60px;
-    width: 100%;
-    background-color: #f49e1b;
-    color: #fff;
-    border-radius: 15px;
-    border: none;
-    margin:  auto;
-  }
-  .map{
-    border:0;
-    width:100%; 
-    height:250px;
-  }
-  
-  .address-info-1{
-    font-size:18px; color: #fff; ;
-  }
-  
-  .address-info-2{
-  
-    font-size: 14px; color: #fff;
-  }
-  
-  
+
+    .address{
+      max-width: 80px;
+      max-height: 50px;
+      
+    }
+    .map{
+     
+      height:200px;
+      margin: 5px auto 0 auto ;
+    }
+
+    .address-info-1{
+      font-size: 15px; color: #fff; margin: 5px 0;
+      position: relative;
+      bottom: 100px;
+    }
+    .address-info-2{
+      font-size: 10px; color: #fff;
+      position: relative;
+      bottom: 100px;
+     
+    }
+    .div-btn{
+      max-width:300px;
+      max-height: 80px;
+      position: relative;
+      bottom: 190px;
+    }
+
   }
