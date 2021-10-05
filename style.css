@@ -1,1287 +1,1011 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing:border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: linen;
-}
-.main-container{
-    max-width: 1366px;
-    margin: auto;
-    height: 3680px;
-    overflow: hidden;
-    background-color: #fff;
-  
-   
-}
-.slider{
-    max-width: 1380px;
-    max-height: 618px;
-    margin: 10px auto;
-    height: 618px;
-    
-   
-}
-.img-slide{
-    width:100%;
-    height:  615px;
-    filter: brightness(72%);
-    -webkit-filter: brightness(72%);
-    -moz-filter: brightness(72%);
-}
-/* Slideshow container */
-.slideshow-container {
-    max-width:100%;
-    position: relative;
-    max-height: 618px;
-    height: 618px;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
   }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: linen;
   }
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    transition: 0.6s ease;
-    border-radius:50%;
-    user-select: none;
-  }
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius:50%;
-  }
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: #3BA3EF;
-  }
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 36px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 200px;
-    width: 100%;
-    text-align: left;
-    margin-left: 50px;
-  }
-
-  .slide-text{
-    font-size: 24px;
-  }
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  .btn-slide{
-    position: relative;
-    height: 52px;
-    width: 195px;
-    background-color: #3BA3EF;
-    color: #fff;
-    border-radius: 15px;
-    border: none;
-  }
-  .dot-con{
-    position: relative;
-    bottom: 60px;
-  }
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #3BA3EF;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-   
-  }
-  .active, .dot:hover {
-    background-color: #fff;
-  }
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-.about-us{
-    max-width: 1380px;
-    max-height: 450px;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0;
-    
-
-}
-
-.about-us .about-logo,.about-discription{
-    max-width: 674px;
-    max-height: 572px;
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
-    margin:  0 auto;
-    padding: 0 30px;
- 
-}
-
-.title-us{
-    text-align: center;
-    font-size: 32px;
-    margin:10px;
-}
-.title-dis{
-    text-align: center;
-    font-size: 18px;
-    margin:40px 30px 20px 30px;
-    
-}
-
-.portfolio{
-    max-width: 1380px;
-    max-height: 684px;
-    margin:  auto;
-    height: 100%;
-    
-   background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;   
-}
-
-.title-por{
-  text-align: center;
-   font-size: 42px;
-   display:block;
-     margin: 40px 30px ;
-     background-color: #3BA3EF;
-     border-radius: 15px;
-}
-.portfolio-box1,.portfolio-box2,.portfolio-box3{
-max-width: 430px;
-max-height: 234px;
-width: 100%;
-height: 100%;
-margin: 10px auto;
-}
-
-
-.tab-container{
-    max-width:1380px;
-    width: 100%;
-    max-height: 684px;
-    margin: 10px auto;
-    height: 100%;
-    padding: 20px;
-
-}
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #3BA3EF;
-    width: 100%;
-    margin: 10px 0;
-  }
-  
-  /* Style the buttons inside the tab */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 20px;
-    color: #fff;
-   
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-    font-size: 16px;
-    max-height: 200px;
-    height: 100%;
-  }
-
-
-
-.service{
-    max-width: 1380px;
-    max-height: 1000px;
-    margin:  auto;
-    height: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.service-box{
-    max-width: 400px;
-    max-height: 250px;
-    width: 100%;
-    height: 100%;
-    background-color: #3BA3EF;
-    margin: 10px auto;
-
-}
-
-.icon-s{
-  width:100%;
-  height:150px
-}
-
-.service-dis{
-    font-size: 24px;
-    text-align: center;
-    color: #fff;
-}
-
-
-
-.contact{
-    max-width: 1380px;
-    max-height: 900px;
-    margin:  auto;
-    height: 100%;
-    background-color:  #3BA3EF;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
-    padding: 10px;
-}
-
-.contact-box{
-  max-width: 650px;
-  width: 100%;
-  max-height: 600px;
-  height: 100%;
-  margin: 5px auto;
-  height: 100%;
- 
-  display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-form{
-  display: flex;
-  flex-wrap: wrap;
-  padding:0 ;
-}
-.form-text{
-  max-height: 150px;
-  height: 100%;
-  max-width: 300px;
-  width: 100%;
-  margin: 10px auto;
-}
-.text-area{
-  max-height: 300px;
-  height: 100%;
-  max-width:630px;
-  width: 100%;
-  margin: 10px  auto;
-}
-
-.contact-box input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  height: 100%;
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-.address{
-  max-width: 290px;
-  max-height: 250px;
-  width:  100%;
-  height: 100%;
- 
-  margin: auto ;
-}
-
-.div-btn{
-  max-width:300px;
-  max-height: 100px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-.btn-contact{
-  position: relative;
-  height: 60px;
-  width: 350px;
-  background-color: #f49e1b;
-  color: #fff;
-  border-radius: 15px;
-  border: none;
-  margin:  auto;
-}
-
-.map{
-  border:0;
-  width:100%; 
-  height:300px;
-  margin: 10px auto;
-}
-
-
-
-.address-info-1{
-  font-size: 24px; color: #fff; margin-bottom: 10px;
-}
-
-.address-info-2{
-
-  font-size: 18px; color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1365px) {
-
-
   .main-container{
-    max-width: 1023px;
-    margin: auto;
-    height: 3800px;
-    overflow: hidden;
-  
-   
-}
-.slider{
-    max-width:1023px;
-    max-height: 618px;
-    margin: 10px auto;
-    height: 618px;
-    padding: 0 10px;
-   
+      max-width: 1366px;
+      margin: auto;
+      height: 3680px;
+      overflow: hidden;
+      background-color: #fff;
+      padding: 0 10px;
     
-   
-}
-.img-slide{
-    width:100%;
-    height:  615px;
-    filter: brightness(72%);
-    -webkit-filter: brightness(72%);
-    -moz-filter: brightness(72%);
-}
-/* Slideshow container */
-.slideshow-container {
-    max-width:100%;
-    position: relative;
-    max-height: 618px;
-    height: 618px;
+     
+  }
+  .slider{
+      max-width: 1380px;
+      max-height: 618px;
+      margin: 10px auto;
+      height: 618px;
+      
+     
+  }
+  .img-slide{
+      width:100%;
+      height:  615px;
+      filter: brightness(72%);
+      -webkit-filter: brightness(72%);
+      -moz-filter: brightness(72%);
+  }
+  /* Slideshow container */
+  .slideshow-container {
+      max-width:100%;
+      position: relative;
+      max-height: 618px;
+      height: 618px;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+      transition: 0.6s ease;
+      border-radius:50%;
+      user-select: none;
+    }
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius:50%;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: #3BA3EF;
+    }
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 36px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 200px;
+      width: 100%;
+      text-align: left;
+      margin-left: 50px;
+    }
+  
+    .slide-text{
+      font-size: 24px;
+    }
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    .btn-slide{
+      position: relative;
+      height: 52px;
+      width: 195px;
+      background-color: #3BA3EF;
+      color: #fff;
+      border-radius: 15px;
+      border: none;
+    }
+    .dot-con{
+      position: relative;
+      bottom: 60px;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #3BA3EF;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+     
+    }
+    .active, .dot:hover {
+      background-color: #fff;
+    }
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+  
+  
+  .about-us{
+      max-width: 1380px;
+      max-height: 450px;
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0;
+      
+  
   }
   
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius:50%;
-    user-select: none;
-  }
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius:50%;
-  }
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: #3BA3EF;
-  }
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 24px;
-    position: absolute;
-    bottom:60px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
+  .about-us .about-logo,.about-discription{
+      max-width: 660px;
+      max-height: 572px;
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+      margin:  0 auto;
+      padding: 0 30px;
    
   }
-
-  .slide-text{
-    font-size: 18px;
+  
+  .title-us{
+      text-align: center;
+      font-size: 32px;
+      margin:10px;
   }
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  .title-dis{
+      text-align: center;
+      font-size: 18px;
+      margin:40px 30px 20px 30px;
+      
   }
-  .btn-slide{
+  
+  .portfolio{
+      max-width: 1380px;
+      max-height: 684px;
+      margin:  auto 20px;
+      height: 100%;
+      
+     background-color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;   
+  }
+  
+  .title-por{
+    text-align: center;
+     font-size: 42px;
+     display:block;
+       margin: 40px 30px ;
+       background-color: #3BA3EF;
+       border-radius: 15px;
+  }
+  .portfolio-box1,.portfolio-box2,.portfolio-box3{
+  max-width: 400px;
+  max-height: 234px;
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+  }
+  
+  
+  .tab-container{
+      max-width:1380px;
+      width: 100%;
+      max-height: 684px;
+      margin: 10px auto;
+      height: 100%;
+      padding: 20px;
+  
+  }
+  /* Style the tab */
+  .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #3BA3EF;
+      width: 100%;
+      margin: 10px 0;
+      border-radius: 15px;
+      
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 20px;
+      color: #fff;
+      margin:  0 10px;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+      font-size: 16px;
+      max-height: 200px;
+      height: 100%;
+    }
+  
+  
+  
+  .service{
+      max-width: 1380px;
+      max-height: 1000px;
+      margin:  auto 20px;
+      height: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  
+  .service-box{
+      max-width: 400px;
+      max-height: 250px;
+      width: 100%;
+      height: 100%;
+      background-color: #3BA3EF;
+      margin: 10px auto;
+  
+  }
+  
+  .icon-s{
+    width:100%;
+    height:150px
+  }
+  
+  .service-dis{
+      font-size: 24px;
+      text-align: center;
+      color: #fff;
+  }
+  
+  
+  
+  .contact{
+      max-width: 1380px;
+      max-height: 900px;
+      margin:  auto 20px;
+      height: 100%;
+      background-color:  #3BA3EF;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; 
+      padding: 10px;
+  }
+  
+  .contact-box{
+    max-width: 600px;
+    width: 100%;
+    max-height: 600px;
+    height: 100%;
+    margin: 5px auto;
+    height: 100%;
+   
+    display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 ;
+  }
+  .form-text{
+    max-height: 150px;
+    height: 100%;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .text-area{
+    max-height: 300px;
+    height: 100%;
+    max-width:600px;
+    width: 100%;
+    margin: 10px  auto;
+  }
+  
+  .contact-box input[type=text], select, textarea {
+    width: 90%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    height: 100%;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  .address{
+    max-width: 290px;
+    max-height: 250px;
+    width:  100%;
+    height: 100%;
+   
+    margin: auto ;
+  }
+  
+  .div-btn{
+    max-width:300px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .btn-contact{
     position: relative;
-    height: 52px;
-    width: 150px;
-    background-color: #3BA3EF;
+    height: 60px;
+    width: 350px;
+    background-color: #f49e1b;
     color: #fff;
     border-radius: 15px;
     border: none;
+    margin:  auto;
   }
-  .dot-con{
-    position: relative;
-    bottom: 60px;
+  
+  .map{
+    border:0;
+    width:100%; 
+    height:300px;
+    margin: 10px auto;
   }
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #3BA3EF;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-   
+  
+  
+  
+  .address-info-1{
+    font-size: 24px; color: #fff; margin-bottom: 10px;
   }
-  .active, .dot:hover {
-    background-color: #fff;
+  
+  .address-info-2{
+  
+    font-size: 18px; color: #fff;
   }
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1365px) {
+    .main-container{
+        max-width: 1024px;
+        margin: auto;
+        height: 3800px;
+        overflow: hidden;
+    }
+    .text {
+        font-size: 42px;
+        bottom:100px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+    .about-us{
+        max-width: 960px;
+        max-height: 400px;
+        padding: 0 10px;
+    }
+    .about-us .about-discription{
+        max-width:400px;
+        max-height:300px;
+        margin:  auto;
+        order: 2;
+    }
+    .about-us .about-logo{
+      max-width: 400px;
+      max-height:300px;
+      margin:  auto;
+      order: 1;
+    }
+    .title-us{
+        font-size: 28px;
+    }
+    .title-dis{
+        font-size: 12px;
+        margin:20px;
+    }
+    .portfolio{
+        max-width: 1023px;
+        max-height: 650px;
+        margin:  0 10px;
+    }
+    .portfolio-box1,.portfolio-box2,.portfolio-box3{
+      max-width: 300px;
+      max-height: 234px;
+      margin: 10px auto;
+      }
+    .title-por{
+      text-align: center;
+      font-size: 32px;
+    }
+    .tab-container{
+        max-height: 684px;
+        padding: 5px 0;
+        margin: 0 20px;
+    }
+      .tab button {
+        padding: 14px auto;
+        font-size: 20px;
+      }
+      .tabcontent {
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+    .service{
+        max-height: 800px;
+        margin:  0 10px 50px 10px;
+        padding: 0 10px;
+    }
+    .service-box{
+        max-width: 300px;
+        max-height: 200px;
+        margin: 5px auto;
+    }
+    .contact{
+        max-width: 1023px;
+        max-height:1060px;
+        margin:  0 10px;
+        padding: 10px;
+    }
+    .contact-box{
+      max-width: 400px;
+      width: 100%;
+      max-height: 800px;
+      margin: auto;
+      height: 100%;
+    }
+    .form-text{
+      max-height: 300px;
+      height: 100%;
+      max-width:100%;
+      width: 100%;
+      margin: 10px 10px;
+    }
+    .contact-box input[type=text], select, textarea {
+      width: 100%; /* Full width */
+    }
+    .address{
+      max-width: 150px;
+      max-height: 100px;
+      margin: 0 10px ;
+    }
+    .div-btn{
+      max-width:100%;
+      max-height: 100px;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    .btn-contact{
+      position: relative;
+      height: 60px;
+      margin:  auto;
+    }
+    .map{
+      height:400px;
+      
+    }
+    .address-info-1{
+      font-size:18px; color: #fff; ;
+    }
+    .address-info-2{
+      font-size: 12px; color: #fff;
+    }
   }
 
 
-  .about-us{
-    max-width: 960px;
-    max-height: 400px;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 10px;
-   
 
+
+
+@media only screen and (max-width: 1000px){
+      .main-container{
+          max-width: 768px;
+          margin: auto;
+          height: 3800px;
+          overflow: hidden;
+      }
+      .about-us{
+        max-width: 960px;
+        max-height: 400px;
+        padding: 0 10px;
+    }
+    
+      .about-us .about-discription{
+        max-width:340px;
+        max-height:300px;
+        margin:  auto;
+        order: 2;
+      }
+        
+      .about-us .about-logo{
+        max-width: 340px;
+        max-height:300px;
+        margin:  auto;
+        order: 1;
+        }
+      .portfolio{
+        max-width:100%;
+        max-height: 600px;
+      }
+      .portfolio-box1,.portfolio-box2,.portfolio-box3{
+        max-width: 220px;
+        max-height: 200px;
+        }
+      .tab button {
+        font-size: 15px;
+      }
+      .service{
+        max-width: 1380px;
+        max-height: 750px;
+      }
+      .service-box{
+        max-width: 230px;
+        max-height: 200px;
+      }
+      .contact{
+        max-width: 1380px;
+        max-height:1050px;
+      }
+      .contact-box{
+      max-width: 300px;
+      width: 100%;
+      max-height: 800px;
+      margin: 0 auto;
+      }
+      .form-text{
+        width: 100%;
+      }
+      .contact-box input[type=text], select, textarea {
+        width: 100%; /* Full width */
+      }
+      .div-btn{
+        margin-top: 40px;
+      }
+      .btn-contact{
+        max-width: 100%;
+      }
+      .address{
+        max-width: 100px;
+        max-height: 100px;
+        
+      }
+      .address-info-1{
+        font-size:16px; color: #fff; ;
+      }
+      .address-info-2{
+        font-size: 12px; color: #fff;
+      }
+      
 }
-
-.about-us .about-discription{
-    max-width:320px;
-    max-height:300px;
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+  
+  
+    .main-container{
+      max-width: 600px;
+      margin: auto;
+      height: 6420px;
+      overflow: hidden;
+    
+     
+  }
+  .slider{
+      max-width: 600px;
+      max-height: 618px;
+      margin: 10px auto;
+      height: 618px;
+      padding: 0 10px;
+     
+      
+     
+  }
+  .img-slide{
+      width:100%;
+      height:  615px;
+      filter: brightness(72%);
+      -webkit-filter: brightness(72%);
+      -moz-filter: brightness(72%);
+  }
+  /* Slideshow container */
+  .slideshow-container {
+      max-width:100%;
+      position: relative;
+      max-height: 618px;
+      height: 618px;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius:50%;
+      user-select: none;
+    }
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius:50%;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: #3BA3EF;
+    }
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 24px;
+      position: absolute;
+      bottom:60px;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+     
+    }
+  
+    .slide-text{
+      font-size: 18px;
+    }
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    .btn-slide{
+      position: relative;
+      height: 52px;
+      width: 150px;
+      background-color: #3BA3EF;
+      color: #fff;
+      border-radius: 15px;
+      border: none;
+    }
+    .dot-con{
+      position: relative;
+      bottom: 60px;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 10px;
+      width: 10px;
+      margin: 0 2px;
+      background-color: #3BA3EF;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+     
+    }
+    .active, .dot:hover {
+      background-color: #fff;
+    }
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+  
+  
+    .about-us{
+      max-width: 1380px;
+      max-height: 620px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0 10px;
+     
+  
+  }
+  
+  .about-us .about-discription{
+      max-width: 670px;
+      max-height:450px;
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+      margin:  auto;
+      order: 1;
+  }
+  
+  .about-us .about-logo{
+    max-width: 670px;
+    max-height:200px;
     height: 100%;
     width: 100%;
     background-color: #fff;
     margin:  auto;
     order: 2;
-}
-
-.about-us .about-logo{
-  max-width: 320px;
-  max-height:300px;
-  height: 100%;
-  width: 100%;
-  background-color: #fff;
-  margin:  auto;
-  order: 1;
-}
-
-.title-us{
+  }
+  
+  .title-us{
+      text-align: center;
+      font-size: 32px;
+      margin:10px;
+  }
+  .title-dis{
+      text-align: center;
+      font-size: 12px;
+      margin:20px;
+  }
+  
+  .portfolio{
+      max-width: 1380px;
+      max-height: 1150px;
+      margin:  0 10px;
+      height: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;  
+      padding: 0 10px;
+  }
+  
+  .title-por{
     text-align: center;
     font-size: 32px;
-    margin:10px;
-}
-.title-dis{
-    text-align: center;
-    font-size: 12px;
-    margin:20px;
-}
-
-.portfolio{
-    max-width: 1023px;
-    max-height: 520px;
-    margin:  0 10px;
-    height: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;  
-    padding: 0 10px;
-}
-
-.title-por{
-  text-align: center;
-  font-size: 32px;
-  display:block;
-  margin: 40px 0 ;
-  background-color: #3BA3EF;
-}
-.portfolio-box1,.portfolio-box2,.portfolio-box3{
-max-width: 300px;
-max-height: 200px;
-width: 100%;
-height: 100%;
-margin: 5px auto;
-}
-
-
-.tab-container{
-    width: 100%;
-    max-height: 684px;
-    height: 100%;
-    padding: 5px 0;
-
-}
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
+    display:block;
+    margin: 40px 0 ;
     background-color: #3BA3EF;
-    
-    
+    border-radius: 15px;
   }
-  
-  /* Style the buttons inside the tab */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px auto;
-    transition: 0.3s;
-    font-size: 20px;
-    color: #fff;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-    
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-    font-size: 14px;
-    max-height: 100px;
-    height: 100%;
-  }
-
-
-
-.service{
-    max-width: 1023px;
-    max-height: 1000px;
-    margin:  0 10px;
-    height: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 10px;
-    
-}
-
-.service-box{
-    max-width: 300px;
-    max-height: 200px;
-    width: 100%;
-    height: 100%;
-    background-color: #3BA3EF;
-    margin: 5px auto;
-
-}
-.icon-s{
-  width:100%;
-  height:150px;
-}
-
-
-.service-dis{
-    font-size: 15px;
-    text-align: center;
-    color: #fff;
-}
-
-
-
-.contact{
-    max-width: 1023px;
-    max-height: 1200px;
-    margin:  0 10px;
-    height: 100%;
-    background-color:  #3BA3EF;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
-    padding: 10px;
-   
-}
-
-.contact-box{
-  max-width: 450px;
-  width: 100%;
-  max-height: 800px;
-  height: 100%;
-  margin: auto;
-  height: 100%;
- 
-  display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-form{
-  display: flex;
-  flex-wrap: wrap;
-  padding:0 ;
-}
-.form-text{
-  max-height: 150px;
-  height: 100%;
-  max-width: 100%;
-  width: 100%;
-  margin: 10px 10px;
-}
-.text-area{
-  max-height: 300px;
-  height: 100%;
-  max-width:630px;
-  width: 100%;
-  margin: auto;
-  padding: 12px;
-}
-
-.contact-box input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  height: 100%;
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-.address{
-  max-width: 250px;
-  max-height: 100px;
-  width:  100%;
-  height: 100%;
- 
-  margin: 0 10px ;
-}
-
-.div-btn{
-  max-width:300px;
-  max-height: 100px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-.btn-contact{
-  position: relative;
-  height: 60px;
-  width: 100%;
-  background-color: #f49e1b;
-  color: #fff;
-  border-radius: 15px;
-  border: none;
-  margin:  auto;
-}
-.map{
-  border:0;
-  width:100%; 
-  height:300px;
-}
-
-.address-info-1{
-  font-size:18px; color: #fff; ;
-}
-
-.address-info-2{
-
-  font-size: 14px; color: #fff;
-}
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px){
-
-.portfolio{
-  max-width:100%;
-  max-height: 500px;
-}
-
-.portfolio-box1,.portfolio-box2,.portfolio-box3{
-  max-width: 220px;
+  .portfolio-box1,.portfolio-box2,.portfolio-box3{
+  max-width: 430px;
   max-height: 200px;
+  width: 100%;
+  height: 100%;
+  margin: 5px auto;
   }
-.tab button {
-  font-size: 15px;
-}
-
-.service{
-  max-width: 1380px;
-  max-height: 750px;
-}
-
-.service-box{
-  max-width: 230px;
-  max-height: 200px;
-}
-
-.contact{
-  max-width: 1380px;
-  max-height:1050px;
-}
-.contact-box{
-max-width: 360px;
-width: 100%;
-max-height: 800px;
-}
-.div-btn{
-  margin-top: 40px;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-
-
-  .main-container{
-    max-width: 600px;
-    margin: auto;
-    height: 6420px;
-    overflow: hidden;
   
-   
-}
-.slider{
-    max-width: 600px;
-    max-height: 618px;
-    margin: 10px auto;
-    height: 618px;
-    padding: 0 10px;
-   
+  
+  .tab-container{
+      width: 100%;
+      max-height: 684px;
+      height: 100%;
+      padding: 5px 0;
+  
+  }
+  /* Style the tab */
+  .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #3BA3EF;
+      
+      
+    }
     
-   
-}
-.img-slide{
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px auto;
+      transition: 0.3s;
+      font-size: 20px;
+      color: #fff;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+      
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+      font-size: 14px;
+      max-height: 200px;
+      height: 100%;
+    }
+  
+  
+  
+  .service{
+      max-width: 1380px;
+      max-height: 2100px;
+      margin:  0 10px;
+      height: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0 10px;
+      
+  }
+  
+  .service-box{
+      max-width: 350px;
+      max-height: 200px;
+      width: 100%;
+      height: 100%;
+      background-color: #3BA3EF;
+      margin: 5px auto;
+  
+  }
+  .icon-s{
     width:100%;
-    height:  615px;
-    filter: brightness(72%);
-    -webkit-filter: brightness(72%);
-    -moz-filter: brightness(72%);
-}
-/* Slideshow container */
-.slideshow-container {
-    max-width:100%;
-    position: relative;
-    max-height: 618px;
-    height: 618px;
+    height:150px;
   }
   
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
+  
+  .service-dis{
+      font-size: 15px;
+      text-align: center;
+      color: #fff;
   }
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius:50%;
-    user-select: none;
+  
+  
+  
+  .contact{
+      max-width: 1380px;
+      max-height: 1900px;
+      margin:  0 10px;
+      height: 100%;
+      background-color:  #3BA3EF;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; 
+      padding: 10px;
+     
   }
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius:50%;
-  }
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: #3BA3EF;
-  }
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 24px;
-    position: absolute;
-    bottom:60px;
+  
+  .contact-box{
+    max-width: 650px;
     width: 100%;
-    text-align: center;
-    margin: 0 auto;
+    max-height: 800px;
+    height: 100%;
+    margin: auto;
+    height: 100%;
    
+    display: flex;
+      flex-wrap: wrap;
+      align-items: center;
   }
-
-  .slide-text{
-    font-size: 18px;
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 ;
   }
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  .form-text{
+    max-height: 150px;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px 10px;
   }
-  .btn-slide{
+  .text-area{
+    max-height: 300px;
+    height: 100%;
+    max-width:630px;
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+  }
+  
+  .contact-box input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    height: 100%;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  .address{
+    max-width: 250px;
+    max-height: 100px;
+    width:  100%;
+    height: 100%;
+   
+    margin: 0 10px ;
+  }
+  
+  .div-btn{
+    max-width:300px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .btn-contact{
     position: relative;
-    height: 52px;
-    width: 150px;
-    background-color: #3BA3EF;
+    height: 60px;
+    width: 100%;
+    background-color: #f49e1b;
     color: #fff;
     border-radius: 15px;
     border: none;
-  }
-  .dot-con{
-    position: relative;
-    bottom: 60px;
-  }
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #3BA3EF;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-   
-  }
-  .active, .dot:hover {
-    background-color: #fff;
-  }
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-  .about-us{
-    max-width: 1380px;
-    max-height: 620px;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 10px;
-   
-
-}
-
-.about-us .about-discription{
-    max-width: 670px;
-    max-height:450px;
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
     margin:  auto;
-    order: 1;
-}
-
-.about-us .about-logo{
-  max-width: 670px;
-  max-height:200px;
-  height: 100%;
-  width: 100%;
-  background-color: #fff;
-  margin:  auto;
-  order: 2;
-}
-
-.title-us{
-    text-align: center;
-    font-size: 32px;
-    margin:10px;
-}
-.title-dis{
-    text-align: center;
-    font-size: 12px;
-    margin:20px;
-}
-
-.portfolio{
-    max-width: 1380px;
-    max-height: 1150px;
-    margin:  0 10px;
-    height: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;  
-    padding: 0 10px;
-}
-
-.title-por{
-  text-align: center;
-  font-size: 32px;
-  display:block;
-  margin: 40px 0 ;
-  background-color: #3BA3EF;
-  border-radius: 15px;
-}
-.portfolio-box1,.portfolio-box2,.portfolio-box3{
-max-width: 430px;
-max-height: 200px;
-width: 100%;
-height: 100%;
-margin: 5px auto;
-}
-
-
-.tab-container{
-    width: 100%;
-    max-height: 684px;
-    height: 100%;
-    padding: 5px 0;
-
-}
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #3BA3EF;
-    
-    
+  }
+  .map{
+    border:0;
+    width:100%; 
+    height:250px;
   }
   
-  /* Style the buttons inside the tab */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px auto;
-    transition: 0.3s;
-    font-size: 20px;
-    color: #fff;
+  .address-info-1{
+    font-size:18px; color: #fff; ;
   }
   
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-    
+  .address-info-2{
+  
+    font-size: 14px; color: #fff;
   }
   
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
   
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-    font-size: 14px;
-    max-height: 200px;
-    height: 100%;
   }
-
-
-
-.service{
-    max-width: 1380px;
-    max-height: 2100px;
-    margin:  0 10px;
-    height: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 10px;
-    
-}
-
-.service-box{
-    max-width: 350px;
-    max-height: 200px;
-    width: 100%;
-    height: 100%;
-    background-color: #3BA3EF;
-    margin: 5px auto;
-
-}
-.icon-s{
-  width:100%;
-  height:150px;
-}
-
-
-.service-dis{
-    font-size: 15px;
-    text-align: center;
-    color: #fff;
-}
-
-
-
-.contact{
-    max-width: 1380px;
-    max-height: 1900px;
-    margin:  0 10px;
-    height: 100%;
-    background-color:  #3BA3EF;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
-    padding: 10px;
-   
-}
-
-.contact-box{
-  max-width: 650px;
-  width: 100%;
-  max-height: 800px;
-  height: 100%;
-  margin: auto;
-  height: 100%;
- 
-  display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-form{
-  display: flex;
-  flex-wrap: wrap;
-  padding:0 ;
-}
-.form-text{
-  max-height: 150px;
-  height: 100%;
-  max-width: 100%;
-  width: 100%;
-  margin: 10px 10px;
-}
-.text-area{
-  max-height: 300px;
-  height: 100%;
-  max-width:630px;
-  width: 100%;
-  margin: auto;
-  padding: 12px;
-}
-
-.contact-box input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  height: 100%;
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-.address{
-  max-width: 250px;
-  max-height: 100px;
-  width:  100%;
-  height: 100%;
- 
-  margin: 0 10px ;
-}
-
-.div-btn{
-  max-width:300px;
-  max-height: 100px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-.btn-contact{
-  position: relative;
-  height: 60px;
-  width: 100%;
-  background-color: #f49e1b;
-  color: #fff;
-  border-radius: 15px;
-  border: none;
-  margin:  auto;
-}
-.map{
-  border:0;
-  width:100%; 
-  height:250px;
-}
-
-.address-info-1{
-  font-size:18px; color: #fff; ;
-}
-
-.address-info-2{
-
-  font-size: 14px; color: #fff;
-}
-
-
-}
-
-
